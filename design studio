@@ -1,0 +1,57 @@
+portfolio/
+ ├ index.html
+ └ style.css
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>Seiya Inoue</h1>
+  <p>Game Developer / Unity</p>
+</header>
+
+<section class="section">
+  <h2>About</h2>
+  <p>
+    Unityを中心にホラーゲームを制作しています。<br>
+    演出・シェーダー・ゲーム設計が得意です。
+  </p>
+</section>
+
+<section class="section">
+  <h2>Works</h2>
+
+  <div class="work">
+    <h3>Airport Horror Game</h3>
+    <p>八番出口風のホラーゲーム</p>
+  </div>
+
+  <div class="work">
+    <h3>Daruma Horror</h3>
+    <p>だるまさんがころんだを題材にした一人称ホラー</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Contact</h2>
+  <p>
+    X / GitHub / Email<br>
+    example@gmail.com
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 Seiya Inoue</p>
+</footer>
+
+</body>
+</html>
